@@ -1,0 +1,125 @@
+.single-service {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 180px;
+    height: 180px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem 1.4rem;
+    /* overflow: hidden; */
+    transition: transform 300ms ease-in-out;
+}
+
+
+.single-service:hover {
+    transform: scale(1.15) ;
+}
+
+.service-content {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.service-icon {
+    position: absolute;
+    top: 15%;
+    
+    /* transform: translateY(-50%); */
+}
+
+.service-icon > svg {
+    font-size: 2.8rem;
+    /* color: #000000; */
+}
+
+.single-service:hover svg{
+    animation: magic 0.7s ease-in-out both;
+}
+
+@keyframes magic {
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,-20px);
+    }
+    50%{
+        transform: translate(0,0px);
+    }
+    75%{
+        transform: translate(0,-10px);
+    }
+
+    /* slide-up-fade
+
+    0%, 100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    33%{
+        transform: translate(0,-50px);
+        opacity: 0;
+    }
+    67%{
+        transform: translate(0,50px);
+        opacity: 0;
+    } */
+    
+}
+
+.service-content > h4 {
+    position: absolute;
+    top: 60%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--primaryFont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 110%;
+    color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+    .single-service {
+        width: 160px;
+        height: 160px;
+        padding: 1.2rem 1.2rem;
+    }
+    .service-icon > svg {
+        font-size: 2.5rem;
+    }
+    
+    .service-content > h4 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .single-service {
+        width: 150px;
+        height: 150px;
+        padding: 1.2rem 1.2rem;
+    }
+    .service-icon > svg {
+        font-size: 2.2rem;
+    }
+    
+    .service-content > h4 {
+        font-size: 13px;
+        top: 50%;
+    }
+}
