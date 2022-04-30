@@ -107,6 +107,7 @@ function Landing() {
                         <div className="col-12" style={{textAlign:"center",marginTop:"20%"}}>  <img src="https://raw.githubusercontent.com/tal-zvon/tal-zvon/main/assets/Hand_Wave.gif" width="20%"  alt="" />  </div>
                         <h1 className="aimee" style={{ textAlign: "center",fontSize:"33px" }}>Subhankar Sarkar</h1>
                         <div style={{ textAlign: "center" }}>
+                            <p>Give your 100% other things are taken care of</p>
                             <h3>I am a
                             <Typewriter
                             options={{
