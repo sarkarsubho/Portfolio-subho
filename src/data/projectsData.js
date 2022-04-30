@@ -4,7 +4,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Deyga- Clone',
-        projectDesc: 'This is a Indian Natural Cosmetics & Beauty products selling website.',
+        projectDesc: 'This is a Indian Natural Cosmetics & Beauty products selling website. this clone can login a user with email and on the product page user can sort the product and select any inthe cart.',
         tags: ["React", "Node.js", "MongoDb"],
          logos: ["fab fa-html5", "fab fa-css3","fab fa-etsy","fab fa-node","fas fa-database"],
         code: 'https://github.com/sarkarsubho/Deyga-Backend-Unit4CW',
@@ -24,23 +24,23 @@ export const projectsData = [
         {
         id: 3,
         projectName: 'Youtube-copy',
-        projectDesc: 'It is a small Copy of Youtube .as a assigment in masai school.',
+        projectDesc: 'It is a small Copy of Youtube .as a assigment in masai school. this copy alows the user to search for any type of vedio onclicking on the particular vedio on the page and show it on the other page.  ',
         tags: ["Html", "css", "javascript"],
          logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
         code: 'https://github.com/sarkarsubho/Youtube-Clone',
         demo: 'https://youtube-dummyc.netlify.app/',
         image: "https://github.com/sarkarsubho/Youtube-Clone/raw/main/Screenshot%202022-04-29%20134544.png"
     },
-    // {
-    //     id: 4,
-    //     projectName: 'Twitter',
-    //     projectDesc: 'This clone allows users to tweet,retweet, like, and comment on tweets made by other user ',
-    //     tags: ["React", "Node.js", "MongoDb"],
-    //     logos: ["fab fa-react","fab fa-etsy","fab fa-node","fas fa-database"],
-    //     code: 'https://github.com/Malek1117/twitter_clone_master',
-    //     demo: 'https://twitter-client-mu.vercel.app/',
-    //     image: "https://user-images.githubusercontent.com/72969348/144738693-71595176-877e-44e1-aff4-413bbec578b9.png"
-    // },
+    {
+        id: 4,
+        projectName: 'Unplash',
+        projectDesc: 'it is a simple copy of unplash., This clone allows users to search for any kind of images and show it in the another page',
+        tags: ["Html", "css", "javascript"],
+         logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
+        code: 'https://github.com/sarkarsubho/unplash-Clone',
+        demo: 'https://sensational-unplash.netlify.app/',
+        image: "https://github.com/sarkarsubho/unplash-Clone/raw/main/Screenshot%202022-04-30%20172424.png"
+    },
     // {
     //     id: 5,
     //     projectName: 'Project Pluralsight',

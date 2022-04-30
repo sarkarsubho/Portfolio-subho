@@ -192,6 +192,14 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+                        {/* <Fade left>
+                            <NavLink to="/#skills" smooth={true} spy="true" duration={2000}  style={{ textDecoration: "none"}}>
+                                <div className={classes.drawerItem}>
+                                    <BsFillGearFill className={classes.drawerIcon}/>
+                                    <span className={classes.drawerLinks}>Skill</span>
+                                </div>
+                            </NavLink>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink to="/#projects" smooth={true} spy="true" duration={2000}  style={{ textDecoration: "none"}}>
