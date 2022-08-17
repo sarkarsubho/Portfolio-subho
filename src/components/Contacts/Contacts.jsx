@@ -126,8 +126,8 @@ function Contacts() {
         if(name && email && message) {
             if(isEmail(email)) {
                 const responseData = {
-                    name: name,
-                    email: email,
+                    to_name: name,
+                    from_name: email,
                     message: message
                 }
             
