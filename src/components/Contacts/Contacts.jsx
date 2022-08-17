@@ -133,7 +133,7 @@ function Contacts() {
             
             //email sections
                 
-                emailjs.send('service_7mwrpfp','template_5jlde4m', responseData, 'user_BXHJ6DmhAdrMyslj668Q1')
+                emailjs.send('service_rwey0ya','template_5byaxhk', responseData, 'TKTJpHgqLTsZu-MsD')
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text);
                     setSuccess(true)
@@ -146,17 +146,17 @@ function Contacts() {
                 console.log('FAILED...', err);
                 });
                 
-                // axios.post(contactsData.sheetAPI, responseData)
-                //     .then(res => {
-                //         console.log('success')
-                //         setSuccess(true)
-                //         setErrMsg('')
+                axios.post(contactsData.sheetAPI, responseData)
+                    .then(res => {
+                        console.log('success')
+                        setSuccess(true)
+                        setErrMsg('')
 
-                //         setName("");
-                //         setEmail("");
-                //         setMessage("")
-                //         setOpen(false)
-                //     })
+                        setName("");
+                        setEmail("");
+                        setMessage("")
+                        setOpen(false)
+                    })
             } else {
                 setErrMsg('Invalid email')
                 setOpen(true)

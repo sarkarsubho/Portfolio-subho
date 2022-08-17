@@ -7,6 +7,7 @@ import { BsFillGearFill } from "react-icons/bs";
 
 import { MdPhone } from "react-icons/md";
 import { FaUser, FaFolderOpen ,FaGifts,FaEthereum,FaFantasyFlightGames} from "react-icons/fa";
+
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
