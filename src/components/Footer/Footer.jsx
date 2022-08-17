@@ -14,7 +14,10 @@ function Footer() {
                     ❤
                 </span>
                  by Subhankar Sarkar <br></br>
-                 cradit goes to <a href='https://github.com/hhhrrrttt222111/developer-portfolio'  style={{ textDecoration: "none"}}>hhhrrrttt222111</a>
+                 <p className='shoutout' style={{fontSize:"8px",textAlign:"center"}}>
+                    cradit goes to <a href='https://github.com/hhhrrrttt222111/developer-portfolio'  style={{ textDecoration: "none"}}>hhhrrrttt222111</a>
+                 </p>
+                 
             </p>
         </div>
     )
