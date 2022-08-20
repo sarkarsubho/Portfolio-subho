@@ -174,8 +174,8 @@ function Landing() {
               <div style={{ marginBottom: "30px" }}>
                 {headerData.resumePdf && (
                   <a
-                    href="https://drive.google.com/drive/u/0/folders/1Ga-h8YK25ywp_yCqRF_oDSPWmMepD2ei"
-                    download="resume"
+                    href={headerData.resumePdf}
+                    download="Subhankar-Sarkar"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: "none" }}

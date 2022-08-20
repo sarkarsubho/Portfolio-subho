@@ -1,8 +1,18 @@
 
 export const projectsData = [
-
     {
         id: 1,
+        projectName: 'Buffer- Clone',
+        projectDesc: 'Buffer is a  application  designed to manage accounts in social networks, by providing the means for a user to schedule posts as well as analyze their results and engage with their community.',
+        tags: ["React","Redux","JavaScriptava", "MongoDb"],
+         logos: ["fab fa-react","redux","fab fa-js","fab fa-html5", "fab fa-css3"],
+        code: 'https://github.com/sarkarsubho/Deyga-Backend-Unit4CW',
+        demo: 'https://intense-shore-24711.herokuapp.com/',
+        image: "https://miro.medium.com/max/1400/1*5EGApnWaGzam6QFebnfvVg.png"
+    },
+
+    {
+        id: 2,
         projectName: 'Deyga- Clone',
         projectDesc: 'This is a Indian Natural Cosmetics & Beauty products selling website. this clone can login a user with email and on the product page user can sort the product and select any inthe cart.',
         tags: ["React", "Node.js", "MongoDb"],
@@ -12,7 +22,7 @@ export const projectsData = [
         image: "https://miro.medium.com/max/700/1*hOqavOAFqBGQiuQLr_PO4Q.png"
     },
     {
-        id: 2,
+        id: 3,
         projectName: 'Project Zoomcar',
         projectDesc: 'Zoomcar, is a very populan Indian self-drive car rental company, headquartered in Bangalore, India. This Project is assigned to us by masai during the construct week.',
         tags: ["Html", "css", "javascript"],
@@ -22,7 +32,7 @@ export const projectsData = [
         image: "https://miro.medium.com/max/700/0*dRRi7mwcDE1rOt9e.png"
     },
         {
-        id: 3,
+        id: 4,
         projectName: 'Youtube-copy',
         projectDesc: 'It is a small Copy of Youtube .as a assigment in masai school. this copy alows the user to search for any type of vedio onclicking on the particular vedio on the page and show it on the other page.  ',
         tags: ["Html", "css", "javascript"],
@@ -32,7 +42,7 @@ export const projectsData = [
         image: "https://github.com/sarkarsubho/Youtube-Clone/raw/main/Screenshot%202022-04-29%20134544.png"
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Unplash',
         projectDesc: 'it is a simple copy of unplash., This clone allows users to search for any kind of images and show it in the another page',
         tags: ["Html", "css", "javascript"],
