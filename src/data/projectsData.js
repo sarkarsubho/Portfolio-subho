@@ -6,8 +6,8 @@ export const projectsData = [
         projectDesc: 'Buffer is a  application  designed to manage accounts in social networks, by providing the means for a user to schedule posts as well as analyze their results and engage with their community.',
         tags: ["React","Redux","JavaScriptava", "MongoDb"],
          logos: ["fab fa-react","redux","fab fa-js","fab fa-html5", "fab fa-css3"],
-        code: 'https://github.com/sarkarsubho/Deyga-Backend-Unit4CW',
-        demo: 'https://intense-shore-24711.herokuapp.com/',
+        code: 'https://github.com/sarkarsubho/gaping-spring-1880/tree/main/buffer-app',
+        demo: 'https://gaping-spring-1880.vercel.app/',
         image: "https://miro.medium.com/max/1400/1*5EGApnWaGzam6QFebnfvVg.png"
     },
 
