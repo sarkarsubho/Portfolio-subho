@@ -176,13 +176,13 @@ function Landing() {
               <div style={{ marginBottom: "30px" }}>
                 {headerData.resumePdf && (
                   <a
-                    href={headerData.resumePdf}
+                    href="https://drive.google.com/drive/folders/1Ga-h8YK25ywp_yCqRF_oDSPWmMepD2ei"
                     download="Subhankar-Sarkar"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: "none" }}
                   >
-                    <Button className={classes.resumeBtn}>Download CV</Button>
+                    <Button className={classes.resumeBtn}>View Resume</Button>
                   </a>
                 )}
               </div>
