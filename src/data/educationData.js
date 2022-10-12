@@ -2,14 +2,14 @@ export const educationData = [
     {
         id: 1,
         institution: 'Masai School',
-        course: `Full Stack Web Development`,
+        course: `Full Stack Web Development (MERN)`,
         startYear: '2021',
         endYear: '2022'
     },
     {
         id: 2,
         institution: 'Netaji Subhas Open University(a premier State Open University in India)',
-        course: `BDP (Hons. Bengali,History)`,
+        course: `Graduation (B.A)`,
         startYear: '2018',
         endYear: '2021'
     },

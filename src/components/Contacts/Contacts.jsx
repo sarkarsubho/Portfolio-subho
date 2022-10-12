@@ -264,11 +264,11 @@ function Contacts() {
                                     <FaLinkedinIn />
                                 </a>
                             )}
-                            {socialsData.instagram && (
+                            {/* {socialsData.instagram && (
                                 <a href={socialsData.instagram} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaInstagram />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.medium && (
                                 <a href={socialsData.medium} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaMediumM />
@@ -284,7 +284,7 @@ function Contacts() {
                                     <FaYoutube />
                                 </a>
                             )}
-                            {socialsData.reddit && (
+                            {/* {socialsData.reddit && (
                                 <a href={socialsData.reddit} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaRedditAlien />
                                 </a>
@@ -298,7 +298,7 @@ function Contacts() {
                                 <a href={socialsData.codepen} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaCodepen />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.gitlab && (
                                 <a href={socialsData.gitlab} target="_blank" rel="noreferrer" className={classes.socialIcon} >
                                     <FaGitlab />

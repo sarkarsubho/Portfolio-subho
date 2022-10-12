@@ -121,6 +121,7 @@ function Landing() {
             borderColor: theme.secondary,
           }}
         />
+        
         <div
           className="landing--container-right col-4"
           style={{ backgroundColor: theme.secondary }}
@@ -129,7 +130,7 @@ function Landing() {
             {/* <h6 style={{textAlign:"center",marginTop:"20%",color:"transparent"}} >{headerData.title}</h6> */}
             <div
               className="col-12"
-              style={{ textAlign: "center", marginTop: "20%" }}
+              style={{ textAlign: "center", marginTop: "20%" ,display:"flex",justifyContent:"center",alignItems:"center" }}
             >
               {" "}
               <img
@@ -137,12 +138,13 @@ function Landing() {
                 width="20%"
                 alt=""
               />{" "}
+              <h2>Hi...</h2>
             </div>
             <h1
               className="aimee"
               style={{ textAlign: "center", fontSize: "33px" }}
             >
-              Subhankar Sarkar
+               It's nice to meet you.
             </h1>
             <div style={{ textAlign: "center" }}>
               <h3>
@@ -151,7 +153,6 @@ function Landing() {
                   options={{
                     strings: [
                       "FrontEnd Developer",
-                      "Backend Developer",
                       "MERN Stack Developer",
                     ],
                     autoStart: true,
@@ -160,8 +161,9 @@ function Landing() {
                   }}
                 />
               </h3>
+              <h3>residing in Kolkata, India.</h3>
             </div>
-
+            
             <div
               style={{
                 position: "relative",

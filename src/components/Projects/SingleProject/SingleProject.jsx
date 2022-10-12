@@ -146,6 +146,7 @@ function SingleProject({
               className={classes.iconBtn}
             >
               <FaPlay className={classes.icon} />
+              
             </a>
             <a
               href={code}

@@ -214,14 +214,14 @@ function Navbar() {
                             </NavLink>
                         </Fade>
                         
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink to="/#services" smooth={true} spy="true" duration={2000}  style={{ textDecoration: "none"}}>
                                 <div className={classes.drawerItem}>
                                     <FaGifts className={classes.drawerIcon}/>
                                     <span className={classes.drawerLinks}>Hobbies</span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
                        
 
 
