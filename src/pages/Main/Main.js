@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement } from '../../components'
 import { headerData } from '../../data/headerData'
-
+import {Projects as P2} from "../../components/MyProjects/Projects"
 function Main() {
 
 
@@ -19,8 +19,10 @@ function Main() {
             <Education />
             <Skills />
             <Experience />
-            <Projects />
+            {/* <Projects /> */}
+            <P2></P2>
             <Achievement />
+            
             {/* <Services /> */}
             <Testimonials />
             <Blog />

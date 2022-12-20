@@ -351,5 +351,6 @@ export const yellowThemeDark = {
     eduimg: eduYellow,
     expimg: expYellow,
     contactsimg: contactsYellow
+    
 }
 

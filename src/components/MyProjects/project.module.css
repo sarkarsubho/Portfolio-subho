@@ -1,0 +1,14 @@
+.main{
+    padding: 0 10% ;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat( auto-fit, minmax(320px,1fr) );
+    
+    color: aliceblue;
+    place-items: center;
+    gap: 30px;
+}
+/* .main img{
+    width: 100%;
+    border-radius:0 0 5px 5px;
+} */

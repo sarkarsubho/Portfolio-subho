@@ -27,7 +27,7 @@ function Skills() {
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">
-                    <Marquee 
+                    {/* <Marquee 
                         gradient={false} 
                         speed={60} 
                         pauseOnHover={true}
@@ -35,7 +35,7 @@ function Skills() {
                         delay={0}
                         play={true} 
                         direction="right"
-                    >
+                    > */}
                         {skillsData.map((skill, id) => (
                             <a href={skill==="ExpressJS" ?  "https://expressjs.com/" :skillink(skill)} style={{ textDecoration: "none"}}>
                             <div className="skill--box" key={id} style={skillBoxStyle}>
@@ -48,7 +48,7 @@ function Skills() {
                         ))}
 
 
-                    </Marquee>
+                    {/* </Marquee> */}
                 </div>
             </div>
         </div>

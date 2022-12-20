@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import { ThemeContext } from './contexts/ThemeContext';
 import { Main, BlogPage, ProjectPage } from './pages'
 import { BackToTop } from './components'
-import ScrollToTop from './utils/ScrollToTop'
+import ScrollToTop from './utils/ScrollToTop';
+import {Projects} from "./components/MyProjects/Projects"
 
 import './App.css'
 
