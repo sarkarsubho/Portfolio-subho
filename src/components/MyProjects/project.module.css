@@ -3,7 +3,9 @@
     width: 100%;
     display: grid; 
     grid-template-columns: repeat( auto-fit, minmax(320px,1fr) );
-    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
     color: aliceblue;
     place-items: center;
     gap: 30px;

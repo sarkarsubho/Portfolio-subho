@@ -76,11 +76,13 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+let npm ="https://souvikdutta.netlify.app/npm-logo.png"
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'npm':
+            return npm
         case 'gcp':
             return gcp;
         case 'html':

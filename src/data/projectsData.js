@@ -27,7 +27,7 @@ export const projectsData = [
     demo: "https://gaping-spring-1880.vercel.app/",
     image: "https://miro.medium.com/max/1400/1*5EGApnWaGzam6QFebnfvVg.png",
   },
-  ,
+  
   {
     id: 3,
     projectName: "Media.net-replica",

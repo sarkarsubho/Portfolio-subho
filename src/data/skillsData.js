@@ -1,11 +1,13 @@
- export const skillsData = [
-    'HTML',
-    'Javascript',
-    'CSS',
-     'React',
-     "Bootstrap",
-     "MongoDB",
-     "nodejs",
-    "ExpressJS"
-]
-
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "Javascript",
+  "React",
+  "Redux",
+  "Bootstrap",
+  "MongoDB",
+  "nodejs",
+  "ExpressJS",
+  "npm",
+  "Git"
+];
