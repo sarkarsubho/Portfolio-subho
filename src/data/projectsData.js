@@ -15,7 +15,7 @@ export const projectsData = [
     projectName: "Buffer- Clone",
     projectDesc:
       "Buffer is a  application  designed to manage accounts in social networks, by providing the means for a user to schedule posts as well as analyze their results and engage with their community.",
-    tags: ["React", "Redux", "JavaScriptava", "MongoDb"],
+    tags: ["React", "Redux", "JavaScript"],
     logos: [
       "fab fa-react",
       "redux",
@@ -51,7 +51,7 @@ export const projectsData = [
     projectName: "Deyga- Clone",
     projectDesc:
       "This is a Indian Natural Cosmetics & Beauty products selling website. this clone can login a user with email and on the product page user can sort the product and select any inthe cart.",
-    tags: ["React", "Node.js", "MongoDb"],
+    tags: ["HTML5", "CSS3", "JavaScript","express","Node.js","mongodb"],
     logos: [
       "fab fa-html5",
       "fab fa-css3",
@@ -79,7 +79,7 @@ export const projectsData = [
     projectName: "Youtube-copy",
     projectDesc:
       "It is a small Copy of Youtube .as a assigment in masai school. this copy alows the user to search for any type of vedio onclicking on the particular vedio on the page and show it on the other page.  ",
-    tags: ["Html", "css", "javascript"],
+    tags: ["Html", "css", "javascript","api"],
     logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
     code: "https://github.com/sarkarsubho/Youtube-Clone",
     demo: "https://youtube-dummyc.netlify.app/",
@@ -91,7 +91,7 @@ export const projectsData = [
     projectName: "Unplash",
     projectDesc:
       "it is a simple copy of unplash., This clone allows users to search for any kind of images and show it in the another page",
-    tags: ["Html", "css", "javascript"],
+    tags: ["Html", "css", "javascript","Api"],
     logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
     code: "https://github.com/sarkarsubho/unplash-Clone",
     demo: "https://sensational-unplash.netlify.app/",
