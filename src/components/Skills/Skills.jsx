@@ -39,7 +39,7 @@ function Skills() {
                         {skillsData.map((skill, id) => (
                             <a href={skill==="ExpressJS" ?  "https://expressjs.com/" :skillink(skill)} style={{ textDecoration: "none"}}>
                             <div className="skill--box" key={id} style={skillBoxStyle}>
-                                <img src={ skill==="ExpressJS" ?  "https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png":skill==="Redux" ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVhbSnmxFDAX7Eww4G-6IBQLW70Q3Brx3rwZN4dhcpqWPi1aCC_bdhpBEHj318eS-Kks&usqp=CAU":skillsImage(skill)} alt={skill} />
+                                <img src={ skill==="ExpressJS" ?  "https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png":skill==="Redux" ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVhbSnmxFDAX7Eww4G-6IBQLW70Q3Brx3rwZN4dhcpqWPi1aCC_bdhpBEHj318eS-Kks&usqp=CAU":skill==="Chakra-UI" ? "https://cdn-icons-png.flaticon.com/512/9036/9036150.png":skill==="Tailwind CSS" ? "https://res.cloudinary.com/arcjet-media/image/upload/v1608734952/z8hzeszc9eb3sp3vp3qc.jpg":skillsImage(skill)} alt={skill} />
                                 <h3 style={{color: theme.tertiary}}>
                                     {skill}
                                 </h3>
