@@ -1,9 +1,10 @@
 export const experienceData = [
     {
         id: 1,
-        company: "I a'm Freshers" ,
-        jobtitle: 'Searching for a challenging role as a fullstack developer.',
-        startYear: '2022',
+        company: "Masai school" ,
+        jobtitle: 'FullStack Developer (Problem Setter)',
+        startYear: '2023-Feb',
+         endYear: '2024-Feb'
     },
    
 ]
