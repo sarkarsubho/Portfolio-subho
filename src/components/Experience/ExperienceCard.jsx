@@ -32,7 +32,12 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
                     <img src={theme.type === 'light' ? expImgBlack : expImgWhite} alt="" />
                 </div>
                 <div className="experience-details">
-                    <h6 style={{color: theme.primary}}>{startYear}</h6>
+                    <span style={{display:"flex",gap:"10px"}}>
+                        <h6 style={{color: theme.primary}}>{startYear}</h6>
+                        <h6 style={{color: theme.primary}}>-</h6>
+                        <h6 style={{color: theme.primary}}>{endYear ?  endYear : "Present"}</h6>
+                    </span>
+                    
                     <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
                     <h5 style={{color: theme.tertiary80}}>{company}</h5>
                 </div>
